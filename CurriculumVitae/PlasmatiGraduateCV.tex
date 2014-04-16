@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\usepackage[spanish]{babel} 
+\usepackage[latin1]{inputenc} 
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Juan \textsc{Hernández García}}\bigskip\par} % Your name
+
+\section{Datos Personales}
+
+\begin{tabular}{rl}
+\textsc{Lugar y Fecha de Nacimiento:} & Lorca(Murcia)  | 13 Julio 1990 \\
+\textsc{Address:} & C/La Seda Edif/La Seda N7 2E, Lorca (Murcia) \\
+\textsc{Phone:} & 617117423\\
+\textsc{email:} & \href{mailto:juanhgw@gmail.com}{juanhgw@gmail.com}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Experiencia Laboral}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{1 Año} & Colaborador de \textsc{Tertius Informática},
+Granada \\
+ & \emph{Desarrollador Software en proyecto Loook}\\
+& \footnotesize{Apoyo en el análisis, codificación, diseño y depuración de la
+aplicación de geolocalización para dispositivos móviles.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+
+\textsc{8 Meses} & Investigador y Desarrollador Software de Interfaces
+Cerebro-Máquina, \textsc{Departamento de Arquitectura y
+Tecnología de Computadores}, Universidad de Granada. \\
+& \emph{Investigación y desarrollo aplicaciones que hacen uso de parámetros
+biométricos del usuario como las ondas cerebrales, o detección de
+micromovimientos musculares.}
+\\
+& \emph{Dispositivos analizados: Neurobit Optima 4, MindWave Mobile,
+GazeTracker.} \\
+& \emph{Areas de investigación principales: EEG, EMG, EOG, EHG.}\\
+& \footnotesize{}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{6 Meses} & Diseñador y Desarrollador de Modelos de Simulación de
+Fenómenos Físicos, \textsc{Departamento de Física Aplicada}, Universidad de
+Granada. \\
+& \emph{Desarrollador y diseñador de modelos de simulación realistas
+para la facilitación del aprendizaje universitario. Se desarrollan múltiples
+aplicaciones que hacen uso de la tecnología Applet de Java.}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Educación}
+
+\begin{tabular}{rl}	
+\textsc{Julio} 2014 & Título en Ingeniería Informática Superior, Universidad de
+Granada.\\
+& Proyecto Final de Carrera | Traductor y Lenguaje Específico para
+Prototipado y \\
+& Autogeneración Musical. \\
+& Núm Menciones de Honor | 10. \\
+&\\
+
+
+%------------------------------------------------
+
+\textsc{Mayo} 2013 & Desarrollo de Aplicaciones Móviles con Dispositivos ANDROID \\
+& Horas | 120 \\
+&\\
+
+%------------------------------------------------
+
+\textsc{Febrero} 2012 & Supuestos y Casos Prácticos de Configuración de Routers Y Switches CISCO \\
+& Horas | 40 \\
+&\\
+
+%------------------------------------------------
+
+
+\textsc{Marzo} 2010 & Curso WEB 2.0: Arquitectura Orientada a Servicios
+en JAVA \\
+& Horas | 50 \\
+&\\
+
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Habilidades Informáticas}
+
+\begin{tabular}{rl}
+Lenguajes de Programación: & \textsc{C\#}, \textsc{C++}, \textsc{C},
+\textsc{php}, \textsc{html}, \textsc{Java}, \textsc{Pascal}, \textsc{Prolog},
+\textsc{Ruby},  {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin
+SmallCaps]{Fontin-Regular}\ldots \\
+
+
+Entornos de Desarrollo: & \textsc{VisualStudio}, \textsc{NetBeans},
+\textsc{Eclipse}, \textsc{DreamWeaver}, \textsc{TexnicCenter}\ldots. \\
+
+Tecnologías Dominadas: & .Net, ANDROID, Java, WEB, Applet\ldots 
+
+\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Idiomas}
+
+\begin{tabular}{rl}
+\textsc{Inglés:} & Nivel B2\\
+
+\textsc{Francés:} & Nivel Básico\\
+
+\textsc{Español:} & Lengua Materna\\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Intereses y Otras Actividades}
+
+
+Programación, tecnologías emergentes, desarrollo de videojuegos,
+biomedicina\\
+integrante de grupo musical, balonmano (jugador), diseño web.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

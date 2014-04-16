@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Tue Apr 15 18:40:12 CEST 2014
+markTmpDer=true
+builderNum=7
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=PlasmatiGraduateCV.tex
+outputFile=PlasmatiGraduateCV.pdf
+langSpell=es
+markDer=true
+srcDir=
